@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5rem;
+}
+
+.container {
+    width: 35%;
+    background-color: white;
+    padding: 3rem ;
+}
+
+.container>h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 4px 6px;
+    border: 1px;
+}
